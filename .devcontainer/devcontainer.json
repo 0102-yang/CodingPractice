@@ -1,0 +1,28 @@
+{
+    "name": "LeetCode C# Development",
+    "image": "mcr.microsoft.com/devcontainers/dotnet:dev-10.0-noble",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csharp",
+                "LeetCode.vscode-leetcode",
+                "EditorConfig.EditorConfig",
+                "ms-dotnettools.csdevkit",
+                "GitHub.copilot-chat"
+            ],
+            "settings": {
+                "leetcode.endpoint": "leetcode",
+                "leetcode.defaultLanguage": "csharp",
+                "leetcode.workspaceFolder": "/workspaces/CodingPractice/Solutions"
+            }
+        }
+    },
+    "postCreateCommand": "dotnet --version && echo 'Dev container ready for LeetCode C#!'",
+    "remoteUser": "vscode"
+}
