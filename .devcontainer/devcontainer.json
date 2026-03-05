@@ -1,8 +1,10 @@
 {
     "name": "LeetCode C# Development",
-    "image": "mcr.microsoft.com/devcontainers/dotnet:dev-10.0-noble",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
     "features": {
-        "ghcr.io/devcontainers/features/git:1": {},
         "ghcr.io/devcontainers/features/node:1": {
             "version": "lts"
         }
@@ -13,8 +15,7 @@
                 "ms-dotnettools.csharp",
                 "LeetCode.vscode-leetcode",
                 "EditorConfig.EditorConfig",
-                "ms-dotnettools.csdevkit",
-                "GitHub.copilot-chat"
+                "ms-dotnettools.csdevkit"
             ],
             "settings": {
                 "leetcode.endpoint": "leetcode",
