@@ -4,16 +4,12 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-		<NoWarn>$(NoWarn);CS8604;CS8603;CA1822;CS8625;IDE0130</NoWarn>
+		<NoWarn>true</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Dynamic Programming\" />
-    <Folder Include="Array\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CommonLibrary\CommonLibrary.csproj" />
+    <Using Include="CommonLibrary" />
   </ItemGroup>
 
 </Project>
