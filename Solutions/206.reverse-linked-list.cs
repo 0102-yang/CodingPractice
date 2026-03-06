@@ -17,8 +17,6 @@
  * }
  */
 
-using CommonLibrary;
-
 namespace _206;
 
 public class Solution
