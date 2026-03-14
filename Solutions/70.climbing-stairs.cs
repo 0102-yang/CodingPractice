@@ -1,0 +1,21 @@
+/*
+ * @lc app=leetcode id=70 lang=csharp
+ *
+ * [70] Climbing Stairs
+ */
+
+// @lc code=start
+public class Solution
+{
+    public int ClimbStairs(int n)
+    {
+        var dp = new int[n + 1];
+        dp[0] = 1;
+        dp[1] = 1;
+        for (int i = 2; i < dp.Length; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+        return dp[n];
+    }
+}
+// @lc code=end
