@@ -14,8 +14,7 @@
             "extensions": [
                 "ms-dotnettools.csharp",
                 "LeetCode.vscode-leetcode",
-                "EditorConfig.EditorConfig",
-                "ms-dotnettools.csdevkit"
+                "EditorConfig.EditorConfig"
             ],
             "settings": {
                 "leetcode.endpoint": "leetcode",

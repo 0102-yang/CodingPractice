@@ -17,7 +17,7 @@
  *     }
  * }
  */
-// namespace _21;
+namespace _21;
 
 public class Solution
 {
