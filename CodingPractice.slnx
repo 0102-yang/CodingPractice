@@ -1,5 +1,0 @@
-<Solution>
-  <Project Path="CommonLibrary/CommonLibrary.csproj" Id="7e8f989a-4fb2-4434-a798-ccc758ac2085" />
-  <Project Path="Solutions/Solutions.csproj" Id="3cd16f42-44f7-40fc-807d-c0dbe88716ed" />
-  <Project Path="Test/Test.csproj" Id="3201d618-b96e-4ea7-8e3e-fb4cc98e4ad7" />
-</Solution>

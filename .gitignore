@@ -24,7 +24,7 @@ bld/
 
 # Visual Studio files
 .vs/
-.vscode/
+# .vscode/
 *.vcxproj.filters
 *.vcxproj.user
 *.vcxproj.filters.user

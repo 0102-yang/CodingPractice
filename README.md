@@ -8,7 +8,7 @@ The primary goal of this project is to document my journey of practicing algorit
 
 ## Structure
 
-- **Languages**: C#
+- **Languages**: Cpp
 - **Content**: Source code files containing solutions to individual problems.
 - **Organization**: Solutions might be organized by difficulty level or topic within the solution folders (e.g., `Dynamic Programming`, `Array`, `Tree`, etc.).
 

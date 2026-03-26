@@ -1,5 +1,5 @@
 {
-    "name": "LeetCode C# Development",
+    "name": "LeetCode Cpp Development",
     "build": {
         "dockerfile": "Dockerfile",
         "context": ".."
@@ -12,17 +12,17 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-dotnettools.csharp",
                 "LeetCode.vscode-leetcode",
-                "EditorConfig.EditorConfig"
+                "EditorConfig.EditorConfig",
+                "ms-vscode.cpptools"
             ],
             "settings": {
                 "leetcode.endpoint": "leetcode",
-                "leetcode.defaultLanguage": "csharp",
+                "leetcode.defaultLanguage": "cpp",
                 "leetcode.workspaceFolder": "/workspaces/CodingPractice/Solutions"
             }
         }
     },
-    "postCreateCommand": "dotnet --version && echo 'Dev container ready for LeetCode C#!'",
+    "postCreateCommand": "echo 'Dev container ready for LeetCode Cpp!'",
     "remoteUser": "vscode"
 }

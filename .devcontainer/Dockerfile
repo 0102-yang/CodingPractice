@@ -1,1 +1,1 @@
-FROM mcr.azure.cn/devcontainers/dotnet:dev-10.0-noble
+FROM mcr.azure.cn/devcontainers/cpp:dev-ubuntu-24.04
