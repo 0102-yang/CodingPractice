@@ -5,7 +5,7 @@
         "context": ".."
     },
     "features": {
-        "ghcr.io/devcontainers/features/node:1": {
+        "ghcr.io/devcontainers/features/node:2.0.0": {
             "version": "lts"
         }
     },
@@ -19,7 +19,17 @@
             "settings": {
                 "leetcode.endpoint": "leetcode",
                 "leetcode.defaultLanguage": "cpp",
-                "leetcode.workspaceFolder": "/workspaces/CodingPractice/Solutions"
+                "leetcode.workspaceFolder": "/workspaces/CodingPractice/Solutions",
+                "github.copilot.nextEditSuggestions.enabled": false,
+                "github.copilot.nextEditSuggestions.fixes": false,
+                "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
+                "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+                "github.copilot.enable": {
+                    "*": false,
+                    "plaintext": false,
+                    "markdown": false,
+                    "scminput": false
+                }
             }
         }
     },
